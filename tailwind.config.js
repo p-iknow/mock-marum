@@ -8,7 +8,8 @@ const twinConfig = {
       },
     },
   },
-  plugins: [],
+  content: ['node_modules/daisyui/dist/**/*.js'],
+  plugins: [require('daisyui')],
 }
 
 module.exports = twinConfig
